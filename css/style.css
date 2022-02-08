@@ -45,17 +45,17 @@ img {
   padding: 4rem 0 2rem;
 }
 
-.section .title, .section .subtitle {
+.section-title, .section-subtitle {
   text-align: center;
 }
 
-.section .title {
+.section-title {
   font-size: 1.5rem;
   color: #393939;
   margin-bottom: 1.5rem;
 }
 
-.section .subtitle {
+.section-subtitle {
   display: block;
   color: #069c54;
   font-weight: 500;
