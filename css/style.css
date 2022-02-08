@@ -1,0 +1,162 @@
+/* Colors */
+/* Font */
+/* Font weigt */
+/* Margenes */
+/* z-index */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fbfefd;
+  margin: 3rem 0 0 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.938rem;
+  color: #707070;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding: 4rem 0 2rem;
+}
+
+.section .title, .section .subtitle {
+  text-align: center;
+}
+
+.section .title {
+  font-size: 1.5rem;
+  color: #393939;
+  margin-bottom: 1.5rem;
+}
+
+.section .subtitle {
+  display: block;
+  color: #069c54;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+/* Layout */
+.bd-container {
+  max-width: 1040px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.bd-grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.hero {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #fbfefd;
+}
+
+/* Navigation */
+.nav {
+  max-width: 1024px;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 0 1rem;
+    text-align: center;
+    background-color: #fbfefd;
+    -webkit-transition: .4s;
+    transition: .4s;
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 1rem 1rem;
+    z-index: 100;
+  }
+}
+
+.nav-item {
+  margin-bottom: 1rem;
+}
+
+.nav-link, .nav-logo, .nav-toggle {
+  color: #707070;
+  font-weight: 500;
+}
+
+.nav-logo:hover {
+  color: #069c54;
+}
+
+.nav-link {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.nav-toggle {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+/* Show menu */
+.show-menu {
+  top: 3rem;
+}
+
+/* Change */
+.change-theme {
+  position: absolute;
+  right: 1rem;
+  top: 1.8rem;
+  color: #707070;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Active link */
+.active-link {
+  color: #069c54;
+}
+/*# sourceMappingURL=style.css.map */
