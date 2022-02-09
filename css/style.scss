@@ -160,6 +160,65 @@ img {
   color: $first-color;
 
 }
+/* Main */
+.home-container {
+  height: calc(100vh-$header-height;
+  align-content: center;
+}
+.home-title {
+  font-size: $biggest-font-size;
+  color: $first-color;
+  margin-bottom: $mb-1;
+}
+.home-img {
+  width: 300px;
+  justify-self: center;
+}
+.button {
+  display: inline-block;
+  background-color: $first-color;
+  color: #fff;
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  transition: .3s;
+}
+.button:hover {
+  background-color: $first-color-alt;
+}
+/* About  */
+.about-data {
+  text-align: center;
+}
+.about-des {
+  margin-bottom: $mb-3;
+}
+.about-img {
+  width: 280px;
+  border-radius: .5rem;
+  justify-self: center;
+}
+/* Services */
+.services-container {
+  row-gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, min-max(220px, 1fr));
+}
+.services-content {
+  text-align: center;
+}
+.services-img {
+  width: 64px;
+  height: 64px;
+  fill: $first-color;
+}
+
+
+
+
+
+
+
+
+
 
 
 

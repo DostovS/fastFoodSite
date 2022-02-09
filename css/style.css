@@ -160,6 +160,72 @@ img {
   color: #069c54;
 }
 
+/* Main */
+.home-container {
+  height: calc(100vh-$header-height);
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.home-title {
+  font-size: 2.25rem;
+  color: #069c54;
+  margin-bottom: 0.5rem;
+}
+
+.home-img {
+  width: 300px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.button {
+  display: inline-block;
+  background-color: #069c54;
+  color: #fff;
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.button:hover {
+  background-color: #048654;
+}
+
+/* About  */
+.about-data {
+  text-align: center;
+}
+
+.about-des {
+  margin-bottom: 1.5rem;
+}
+
+.about-img {
+  width: 280px;
+  border-radius: .5rem;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+/* Services */
+.services-container {
+  row-gap: 2.5rem;
+  -ms-grid-columns: (min-max(220px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, min-max(220px, 1fr));
+}
+
+.services-content {
+  text-align: center;
+}
+
+.services-img {
+  width: 64px;
+  height: 64px;
+  fill: #069c54;
+}
+
 .app-des {
   text-align: center;
 }
